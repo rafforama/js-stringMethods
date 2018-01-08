@@ -8,13 +8,15 @@
 /*1. Declare a variable named `howManyLetters` and find out how many letters are in the given string below. Console.log your result.*/
 
 var longestPlaceName = "Taumatawhakatangihangakoauauotamateaturipukakapiki- maungahoronukupokaiwhenuakitanatahu";  //Yes, this is a real place located in Porangahau, Central Hawke's Bay.
+var howManyLetters = longestPlaceName.length;
+console.log(howManyLetters);
 
 
 
 /*Next, concatenate and console.log the following phrase:
 "x is the longest place name in the world and has y letters in its name."
 where x represents the value at `longestPlaceName` and y represents the value at `howManyLetters`*/
-
+console.log(longestPlaceName + " is the longest place name in the world and has " + howManyLetters + " letters in its name.");
 
 /*The string.charAt() method returns the character at the specified index (position).*/
 
